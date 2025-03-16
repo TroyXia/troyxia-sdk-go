@@ -2,7 +2,10 @@ module github.com/TroyXia/troyxia-sdk-go
 
 go 1.23.3
 
-require github.com/marmotedu/component-base v1.6.2
+require (
+	github.com/TroyXia/errors v0.0.0-20250316080250-347724db4b6f
+	github.com/marmotedu/component-base v1.6.2
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
